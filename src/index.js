@@ -5,7 +5,6 @@ import { createBrowserHistory } from "history";
 
 import App from "./App";
 import Profiledetails from "./components/Profiledetails";
-
 import "bootstrap/dist/css/bootstrap.css";
 import "./styles.css";
 

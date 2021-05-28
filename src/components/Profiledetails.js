@@ -11,11 +11,9 @@ import {
 } from "reactstrap";
 
 export default function Profiledetails(props) {
-    console.log("Rd");
     const [loading, setLoading] = useState(false);
     const [data, setData] = useState({});
     const { id } = useParams();
-    console.log(id);
     const history = useHistory();
 
     useEffect(() => {
